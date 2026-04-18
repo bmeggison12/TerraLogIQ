@@ -133,10 +133,6 @@ function InlineName({ value, onSave }) {
             color: 'var(--text-primary)'
           }}
         /><input
-  type="file"
-  accept=".xlsx,.csv"
-  onChange={handleFileUpload}
-  style={{ fontSize: 12 }}
 />
         {saving && <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>saving…</span>}
       </div>
